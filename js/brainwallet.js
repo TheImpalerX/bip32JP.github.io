@@ -18,8 +18,8 @@
         btc_main: {
             name: "Bitcoin",
             network: "Mainnet",
-            prefix: 0,
-            private_prefix: 0+0x80,
+            prefix: 0x3d,
+            private_prefix: 0x3d+0x80,
             bip32_public: BITCOIN_MAINNET_PUBLIC,
             bip32_private: BITCOIN_MAINNET_PRIVATE
         },
